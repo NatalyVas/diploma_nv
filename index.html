@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 </head>
 <body>
 <header>
@@ -239,6 +240,8 @@
             <li class="topic-list-item"><div><a href="#0">Йога</a><div style="display: inline; padding-top: 10px"><span class="topic-index">8</span></div></div></li>
           </ul>
         </section>
+
+        <button type="button" class="open-popup"><span class="subscribe">Открыть <br>pop-up</span></button>
      </aside>
 </div>
 
@@ -337,5 +340,47 @@
     </div>
   </div>
 </footer>
+
+<section class="popup">
+  <div class="popup-background"> 
+    <form class="popup-form">
+      <a href="#0" class="close"></a>
+      <script src="js/script.js"></script>
+      <p class="aside-h2 trend-h2">Ваш фидбэк</p>
+      <div class="form-main">
+        <label class="form-group">
+           <span class="form-hint">Как часто вы заходите на сайт?</span>
+            <select class="form-select">
+              <option class="form-select-item" selected>Почти каждый день</option>
+              <option class="form-select-item">На этот сайт не захожу</option>
+            </select>
+        </label>
+
+        <div class="form-radio">
+          <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+          <div class="form-radio-boxes">
+            <label class="form-radio-label">
+              <input type="radio" name="radio-group" class="radio">
+              <span class="form-radio-group-text">Да</span>
+            </label>
+            <label class="form-radio-label">
+              <input type="radio" name="radio-group" class="radio">
+              <span class="form-radio-group-text">Нет</span>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-group">
+          <span class="form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+          <textarea class="form-field" placeholder="Может, больше рецептов?"></textarea>
+        </label>
+
+        <button type="submit" class="form-button"><span class="subscribe">Отправить</span></button>
+      </div>
+    
+    </form>
+  </div>
+</section>
+
 </body>
 </html>

@@ -1060,3 +1060,252 @@ select {
  	font-size: 14px;
  }
 }
+
+@media (max-width: 640px) {
+	header {
+		background-image: url("../images/banner-mobile.jpg");
+	}
+
+	.conteiner {
+  		padding: 30px 15px 0 15px; 
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.logo {
+		width: 270px;
+		height: 61px;
+		margin-top: 193px;
+	}	
+
+	.header-logo-menu {
+		display: block;
+		position: relative;
+		text-align: center;
+	}
+
+	.menu-burger {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+
+	.menu-burger:before {
+		content: "";
+		background-image: url("../svg/burger.svg");
+		width: 23px;
+		height: 20px;
+		background-repeat: no-repeat;
+		background-size: 23px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.h1 {
+		font-size: 26px;
+		line-height: 35px;
+		margin-top: 35px;
+		padding-bottom: 220px;
+	}
+
+	br {
+		display: none;
+	}
+
+	.conteiner-trend {
+		padding-top: 40px;
+	}
+
+	.trend-h2 {
+		padding-bottom: 24px;
+	}
+
+	.trend-items {
+		flex-wrap: wrap;
+	}
+
+	.trend-item {
+		width: 100%;
+		margin-right: 0;
+		height: 230px;
+		padding: 15px;
+	}
+
+	.trend-item:nth-child(n+2) {
+		margin-top: 3px;
+	}
+
+	article.article-text.trend-item-post {
+		padding: 30px 20px;
+	}
+
+	.article-text.trend-item-post h2 a.trend-h2 {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.article-text h2 {
+		line-height: 18px;
+	}
+
+	.conteiner-main-aside {
+		margin-top: 13px;
+		flex-wrap: wrap;
+	}
+
+	.conteiner-main {
+		width: 100%;
+	}
+
+	.article-item {
+		display: block;
+	}
+
+	.article-text {
+		width: 100%;
+	}
+
+	.article-img {
+  	width: 100%;
+  	margin-right: 0;
+  	min-width: 100px;
+	}
+
+	.trend-items.shop-items {
+		flex-wrap: wrap;
+	}
+
+	.shop-item {
+		width: 100%;
+	}
+
+	.article-teg {
+		margin-top: 8px;
+	}
+
+	.article-text h2 a {
+		font-size: 16px;
+	}
+
+	.article-text h2 {
+		margin-top: 8px;
+	}
+
+	.article-cotyright li {
+		margin-top: 24px;
+	}
+
+	.conteiner-article-main-text {
+		margin-top: 20px;
+	}
+
+	.article-main-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.article-item .article-text {
+		margin-top: 18px;
+		position: relative;
+	}
+
+	.article-item .article-text:after {
+		content: "";
+		width: 100%;
+		height: 3px;
+		background-color: #eeeeee;
+		position: absolute;
+		bottom: -22px;
+		left: 0;
+	}
+
+	.article-item {
+		margin-top: 58px;
+	}
+
+	.article-main-text:nth-child(n+2) {
+		margin-top: 8px;
+	}
+
+	aside {
+		margin-top: 67px;
+		width: 100%;
+	}
+
+	.aside-h2 {
+		font-size: 16px;
+	}
+
+	.form-search {
+		margin-top: 55px;
+		margin-bottom: 44px;
+	}
+
+	.search {
+		width: calc(100% - 48px);
+	}
+
+	.email {
+		width: 100%;
+	}
+
+	.email-button {
+		margin-bottom: 44px;
+	}
+
+	.tegs-list {
+		margin-bottom: 44px;
+	}
+
+	.tegs-list-item {
+		padding: 8px 12px;
+	}
+
+	.open-popup {
+		margin-top: 50px;
+	}
+
+	.open-popup span br {
+		display: block;
+	}
+
+	.open-popup span.subscribe {
+		font-size: 20px;
+		line-height: 20px;
+	} 
+
+	.shop-item {
+		margin-right: 0;
+	}
+
+	h2.shop-item-h2 {
+		font-size: 17px;
+		margin-bottom: -5px;
+	}
+
+	.shop-item-price-button {
+		margin-top: 22px;
+	}
+
+	.shop-item:nth-child(n+2) {
+		margin-top: 26px;
+	}
+
+	.social {
+		margin-top: 14px;
+	}
+
+	a.dribble:before, a.pinterest:before, a.tumblr:before {
+		margin: 0 14px;
+	}
+
+	.copyright {
+		margin: 50px 0 46px 0;
+	}
+
+}

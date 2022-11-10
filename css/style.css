@@ -581,9 +581,9 @@ article.article-text.trend-item-post {
 }
 
 
-.shop-item-photo {
-	width: calc(100% - 24px);
-	margin: 0 auto -20px auto;
+.shop-item-photo img {
+	width: calc(100% - 48px);
+	margin: 0 auto -35px auto;
 }
 
 /*source {
